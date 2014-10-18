@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EEFBAC10C931058DA184338 /* libPods-MilkCocoaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 710AD478177C29BDFFAA74F8 /* libPods-MilkCocoaTests.a */; };
+		AA2B5BE919F2755500AD9C96 /* NSCharacterSet+MilkCocoaInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2B5BD519F2755500AD9C96 /* NSCharacterSet+MilkCocoaInternal.h */; };
+		AA2B5BEA19F2755500AD9C96 /* NSCharacterSet+MilkCocoaInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2B5BD619F2755500AD9C96 /* NSCharacterSet+MilkCocoaInternal.m */; };
+		AA2B5BEB19F2755500AD9C96 /* NSCharacterSet+MilkCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2B5BD919F2755500AD9C96 /* NSCharacterSet+MilkCocoa.h */; };
+		AA2B5BEC19F2755500AD9C96 /* NSCharacterSet+MilkCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2B5BDA19F2755500AD9C96 /* NSCharacterSet+MilkCocoa.m */; };
+		AA2B5BED19F2755500AD9C96 /* NSProcessInfo+MilkCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2B5BDB19F2755500AD9C96 /* NSProcessInfo+MilkCocoa.h */; };
+		AA2B5BEE19F2755500AD9C96 /* NSProcessInfo+MilkCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2B5BDC19F2755500AD9C96 /* NSProcessInfo+MilkCocoa.m */; };
+		AA2B5BEF19F2755500AD9C96 /* NSString+MilkCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2B5BDD19F2755500AD9C96 /* NSString+MilkCocoa.h */; };
+		AA2B5BF019F2755500AD9C96 /* NSString+MilkCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2B5BDE19F2755500AD9C96 /* NSString+MilkCocoa.m */; };
+		AA2B5BF119F2755500AD9C96 /* NSWindow+MilkCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2B5BDF19F2755500AD9C96 /* NSWindow+MilkCocoa.h */; };
+		AA2B5BF219F2755500AD9C96 /* NSWindow+MilkCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2B5BE019F2755500AD9C96 /* NSWindow+MilkCocoa.m */; };
+		AA2B5BF319F2755500AD9C96 /* MILKNSURLComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2B5BE219F2755500AD9C96 /* MILKNSURLComponents.h */; };
+		AA2B5BF419F2755500AD9C96 /* MILKNSURLComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2B5BE319F2755500AD9C96 /* MILKNSURLComponents.m */; };
+		AA2B5BF519F2755500AD9C96 /* MILKNSURLQueryItem.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2B5BE419F2755500AD9C96 /* MILKNSURLQueryItem.h */; };
+		AA2B5BF619F2755500AD9C96 /* MILKNSURLQueryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2B5BE519F2755500AD9C96 /* MILKNSURLQueryItem.m */; };
+		AA2B5BF719F2755500AD9C96 /* MILKNSUUID.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2B5BE619F2755500AD9C96 /* MILKNSUUID.h */; };
+		AA2B5BF819F2755500AD9C96 /* MILKNSUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2B5BE719F2755500AD9C96 /* MILKNSUUID.m */; };
+		AA2B5BFA19F2969900AD9C96 /* MilkCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2B5BF919F2969900AD9C96 /* MilkCocoa.h */; };
+		AA51729619F123AA0054C092 /* MILKNSURLComponentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA51729519F123AA0054C092 /* MILKNSURLComponentsTests.m */; };
+		AA6BB88F19F0AD2A0042CF30 /* MilkCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6BB88319F0AD2A0042CF30 /* MilkCocoa.framework */; };
+		AA6BB8A919F0B5A50042CF30 /* NSProcessInfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6BB8A819F0B5A50042CF30 /* NSProcessInfoTests.m */; };
+		AA7D691D19F19121000DDE7C /* MILKNSUUIDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7D691C19F19121000DDE7C /* MILKNSUUIDTests.m */; };
+		AAC6CCDC19F13E9E00F621B8 /* MILKNSURLQueryItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC6CCDB19F13E9E00F621B8 /* MILKNSURLQueryItemTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA6BB89019F0AD2A0042CF30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA6BB87A19F0AD2A0042CF30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA6BB88219F0AD2A0042CF30;
+			remoteInfo = MilkCocoa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60C5E0BA38C5DE2B3EBC8C26 /* Pods-MilkCocoaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkCocoaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MilkCocoaTests/Pods-MilkCocoaTests.release.xcconfig"; sourceTree = "<group>"; };
+		710AD478177C29BDFFAA74F8 /* libPods-MilkCocoaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MilkCocoaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2B5BD519F2755500AD9C96 /* NSCharacterSet+MilkCocoaInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCharacterSet+MilkCocoaInternal.h"; sourceTree = "<group>"; };
+		AA2B5BD619F2755500AD9C96 /* NSCharacterSet+MilkCocoaInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCharacterSet+MilkCocoaInternal.m"; sourceTree = "<group>"; };
+		AA2B5BD919F2755500AD9C96 /* NSCharacterSet+MilkCocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCharacterSet+MilkCocoa.h"; sourceTree = "<group>"; };
+		AA2B5BDA19F2755500AD9C96 /* NSCharacterSet+MilkCocoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCharacterSet+MilkCocoa.m"; sourceTree = "<group>"; };
+		AA2B5BDB19F2755500AD9C96 /* NSProcessInfo+MilkCocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSProcessInfo+MilkCocoa.h"; sourceTree = "<group>"; };
+		AA2B5BDC19F2755500AD9C96 /* NSProcessInfo+MilkCocoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSProcessInfo+MilkCocoa.m"; sourceTree = "<group>"; };
+		AA2B5BDD19F2755500AD9C96 /* NSString+MilkCocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MilkCocoa.h"; sourceTree = "<group>"; };
+		AA2B5BDE19F2755500AD9C96 /* NSString+MilkCocoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MilkCocoa.m"; sourceTree = "<group>"; };
+		AA2B5BDF19F2755500AD9C96 /* NSWindow+MilkCocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWindow+MilkCocoa.h"; sourceTree = "<group>"; };
+		AA2B5BE019F2755500AD9C96 /* NSWindow+MilkCocoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSWindow+MilkCocoa.m"; sourceTree = "<group>"; };
+		AA2B5BE219F2755500AD9C96 /* MILKNSURLComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MILKNSURLComponents.h; sourceTree = "<group>"; };
+		AA2B5BE319F2755500AD9C96 /* MILKNSURLComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MILKNSURLComponents.m; sourceTree = "<group>"; };
+		AA2B5BE419F2755500AD9C96 /* MILKNSURLQueryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MILKNSURLQueryItem.h; sourceTree = "<group>"; };
+		AA2B5BE519F2755500AD9C96 /* MILKNSURLQueryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MILKNSURLQueryItem.m; sourceTree = "<group>"; };
+		AA2B5BE619F2755500AD9C96 /* MILKNSUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MILKNSUUID.h; sourceTree = "<group>"; };
+		AA2B5BE719F2755500AD9C96 /* MILKNSUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MILKNSUUID.m; sourceTree = "<group>"; };
+		AA2B5BF919F2969900AD9C96 /* MilkCocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MilkCocoa.h; sourceTree = "<group>"; };
+		AA51729519F123AA0054C092 /* MILKNSURLComponentsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MILKNSURLComponentsTests.m; sourceTree = "<group>"; };
+		AA6BB88319F0AD2A0042CF30 /* MilkCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MilkCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6BB88719F0AD2A0042CF30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6BB88E19F0AD2A0042CF30 /* MilkCocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilkCocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6BB89419F0AD2A0042CF30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6BB8A819F0B5A50042CF30 /* NSProcessInfoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSProcessInfoTests.m; sourceTree = "<group>"; };
+		AA6BB8AA19F0B5F20042CF30 /* MilkCocoa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MilkCocoa-Prefix.pch"; sourceTree = "<group>"; };
+		AA6BB8AB19F0B5FC0042CF30 /* MilkCocoaTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MilkCocoaTests-Prefix.pch"; sourceTree = "<group>"; };
+		AA7D691C19F19121000DDE7C /* MILKNSUUIDTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MILKNSUUIDTests.m; sourceTree = "<group>"; };
+		AAC6CCDB19F13E9E00F621B8 /* MILKNSURLQueryItemTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MILKNSURLQueryItemTests.m; sourceTree = "<group>"; };
+		C3C4142929D61B381C1F8289 /* Pods-MilkCocoaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkCocoaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MilkCocoaTests/Pods-MilkCocoaTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA6BB87F19F0AD2A0042CF30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6BB88B19F0AD2A0042CF30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6BB88F19F0AD2A0042CF30 /* MilkCocoa.framework in Frameworks */,
+				1EEFBAC10C931058DA184338 /* libPods-MilkCocoaTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F6581ABD60E5EF2F84C04B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				710AD478177C29BDFFAA74F8 /* libPods-MilkCocoaTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B4C0173B983AF104A456C05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3C4142929D61B381C1F8289 /* Pods-MilkCocoaTests.debug.xcconfig */,
+				60C5E0BA38C5DE2B3EBC8C26 /* Pods-MilkCocoaTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA2B5BD319F2755500AD9C96 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				AA2B5BD419F2755500AD9C96 /* Categories */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		AA2B5BD419F2755500AD9C96 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				AA2B5BD519F2755500AD9C96 /* NSCharacterSet+MilkCocoaInternal.h */,
+				AA2B5BD619F2755500AD9C96 /* NSCharacterSet+MilkCocoaInternal.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		AA2B5BD719F2755500AD9C96 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				AA2B5BF919F2969900AD9C96 /* MilkCocoa.h */,
+				AA2B5BD819F2755500AD9C96 /* Categories */,
+				AA2B5BE119F2755500AD9C96 /* Classes */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		AA2B5BD819F2755500AD9C96 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				AA2B5BD919F2755500AD9C96 /* NSCharacterSet+MilkCocoa.h */,
+				AA2B5BDA19F2755500AD9C96 /* NSCharacterSet+MilkCocoa.m */,
+				AA2B5BDB19F2755500AD9C96 /* NSProcessInfo+MilkCocoa.h */,
+				AA2B5BDC19F2755500AD9C96 /* NSProcessInfo+MilkCocoa.m */,
+				AA2B5BDD19F2755500AD9C96 /* NSString+MilkCocoa.h */,
+				AA2B5BDE19F2755500AD9C96 /* NSString+MilkCocoa.m */,
+				AA2B5BDF19F2755500AD9C96 /* NSWindow+MilkCocoa.h */,
+				AA2B5BE019F2755500AD9C96 /* NSWindow+MilkCocoa.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		AA2B5BE119F2755500AD9C96 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AA2B5BE219F2755500AD9C96 /* MILKNSURLComponents.h */,
+				AA2B5BE319F2755500AD9C96 /* MILKNSURLComponents.m */,
+				AA2B5BE419F2755500AD9C96 /* MILKNSURLQueryItem.h */,
+				AA2B5BE519F2755500AD9C96 /* MILKNSURLQueryItem.m */,
+				AA2B5BE619F2755500AD9C96 /* MILKNSUUID.h */,
+				AA2B5BE719F2755500AD9C96 /* MILKNSUUID.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AA6BB87919F0AD2A0042CF30 = {
+			isa = PBXGroup;
+			children = (
+				AA6BB88519F0AD2A0042CF30 /* MilkCocoa */,
+				AA6BB89219F0AD2A0042CF30 /* MilkCocoaTests */,
+				AA6BB88419F0AD2A0042CF30 /* Products */,
+				4B4C0173B983AF104A456C05 /* Pods */,
+				1F6581ABD60E5EF2F84C04B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA6BB88419F0AD2A0042CF30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA6BB88319F0AD2A0042CF30 /* MilkCocoa.framework */,
+				AA6BB88E19F0AD2A0042CF30 /* MilkCocoaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA6BB88519F0AD2A0042CF30 /* MilkCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				AA2B5BD719F2755500AD9C96 /* Public */,
+				AA2B5BD319F2755500AD9C96 /* Project */,
+				AA6BB88619F0AD2A0042CF30 /* Supporting Files */,
+			);
+			path = MilkCocoa;
+			sourceTree = "<group>";
+		};
+		AA6BB88619F0AD2A0042CF30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA6BB88719F0AD2A0042CF30 /* Info.plist */,
+				AA6BB8AA19F0B5F20042CF30 /* MilkCocoa-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA6BB89219F0AD2A0042CF30 /* MilkCocoaTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA6BB8A819F0B5A50042CF30 /* NSProcessInfoTests.m */,
+				AA7D691C19F19121000DDE7C /* MILKNSUUIDTests.m */,
+				AAC6CCDB19F13E9E00F621B8 /* MILKNSURLQueryItemTests.m */,
+				AA51729519F123AA0054C092 /* MILKNSURLComponentsTests.m */,
+				AA6BB89319F0AD2A0042CF30 /* Supporting Files */,
+			);
+			path = MilkCocoaTests;
+			sourceTree = "<group>";
+		};
+		AA6BB89319F0AD2A0042CF30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA6BB89419F0AD2A0042CF30 /* Info.plist */,
+				AA6BB8AB19F0B5FC0042CF30 /* MilkCocoaTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AA6BB88019F0AD2A0042CF30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2B5BF519F2755500AD9C96 /* MILKNSURLQueryItem.h in Headers */,
+				AA2B5BEF19F2755500AD9C96 /* NSString+MilkCocoa.h in Headers */,
+				AA2B5BED19F2755500AD9C96 /* NSProcessInfo+MilkCocoa.h in Headers */,
+				AA2B5BFA19F2969900AD9C96 /* MilkCocoa.h in Headers */,
+				AA2B5BF319F2755500AD9C96 /* MILKNSURLComponents.h in Headers */,
+				AA2B5BF719F2755500AD9C96 /* MILKNSUUID.h in Headers */,
+				AA2B5BE919F2755500AD9C96 /* NSCharacterSet+MilkCocoaInternal.h in Headers */,
+				AA2B5BF119F2755500AD9C96 /* NSWindow+MilkCocoa.h in Headers */,
+				AA2B5BEB19F2755500AD9C96 /* NSCharacterSet+MilkCocoa.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AA6BB88219F0AD2A0042CF30 /* MilkCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6BB89919F0AD2A0042CF30 /* Build configuration list for PBXNativeTarget "MilkCocoa" */;
+			buildPhases = (
+				AA6BB87E19F0AD2A0042CF30 /* Sources */,
+				AA6BB87F19F0AD2A0042CF30 /* Frameworks */,
+				AA6BB88019F0AD2A0042CF30 /* Headers */,
+				AA6BB88119F0AD2A0042CF30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MilkCocoa;
+			productName = MilkCocoa;
+			productReference = AA6BB88319F0AD2A0042CF30 /* MilkCocoa.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA6BB88D19F0AD2A0042CF30 /* MilkCocoaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6BB89C19F0AD2A0042CF30 /* Build configuration list for PBXNativeTarget "MilkCocoaTests" */;
+			buildPhases = (
+				CBB50BAA3317AF23F7F4A2CF /* Check Pods Manifest.lock */,
+				AA6BB88A19F0AD2A0042CF30 /* Sources */,
+				AA6BB88B19F0AD2A0042CF30 /* Frameworks */,
+				AA6BB88C19F0AD2A0042CF30 /* Resources */,
+				19E5665513185DE53CA27F16 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA6BB89119F0AD2A0042CF30 /* PBXTargetDependency */,
+			);
+			name = MilkCocoaTests;
+			productName = MilkCocoaTests;
+			productReference = AA6BB88E19F0AD2A0042CF30 /* MilkCocoaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA6BB87A19F0AD2A0042CF30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Katsuma Tanaka";
+				TargetAttributes = {
+					AA6BB88219F0AD2A0042CF30 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					AA6BB88D19F0AD2A0042CF30 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = AA6BB87D19F0AD2A0042CF30 /* Build configuration list for PBXProject "MilkCocoa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA6BB87919F0AD2A0042CF30;
+			productRefGroup = AA6BB88419F0AD2A0042CF30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA6BB88219F0AD2A0042CF30 /* MilkCocoa */,
+				AA6BB88D19F0AD2A0042CF30 /* MilkCocoaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA6BB88119F0AD2A0042CF30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6BB88C19F0AD2A0042CF30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19E5665513185DE53CA27F16 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MilkCocoaTests/Pods-MilkCocoaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBB50BAA3317AF23F7F4A2CF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA6BB87E19F0AD2A0042CF30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2B5BF019F2755500AD9C96 /* NSString+MilkCocoa.m in Sources */,
+				AA2B5BF619F2755500AD9C96 /* MILKNSURLQueryItem.m in Sources */,
+				AA2B5BEC19F2755500AD9C96 /* NSCharacterSet+MilkCocoa.m in Sources */,
+				AA2B5BEA19F2755500AD9C96 /* NSCharacterSet+MilkCocoaInternal.m in Sources */,
+				AA2B5BF819F2755500AD9C96 /* MILKNSUUID.m in Sources */,
+				AA2B5BF219F2755500AD9C96 /* NSWindow+MilkCocoa.m in Sources */,
+				AA2B5BEE19F2755500AD9C96 /* NSProcessInfo+MilkCocoa.m in Sources */,
+				AA2B5BF419F2755500AD9C96 /* MILKNSURLComponents.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6BB88A19F0AD2A0042CF30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7D691D19F19121000DDE7C /* MILKNSUUIDTests.m in Sources */,
+				AA51729619F123AA0054C092 /* MILKNSURLComponentsTests.m in Sources */,
+				AAC6CCDC19F13E9E00F621B8 /* MILKNSURLQueryItemTests.m in Sources */,
+				AA6BB8A919F0B5A50042CF30 /* NSProcessInfoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA6BB89119F0AD2A0042CF30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA6BB88219F0AD2A0042CF30 /* MilkCocoa */;
+			targetProxy = AA6BB89019F0AD2A0042CF30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA6BB89719F0AD2A0042CF30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA6BB89819F0AD2A0042CF30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA6BB89A19F0AD2A0042CF30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MilkCocoa/MilkCocoa-Prefix.pch";
+				INFOPLIST_FILE = MilkCocoa/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AA6BB89B19F0AD2A0042CF30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MilkCocoa/MilkCocoa-Prefix.pch";
+				INFOPLIST_FILE = MilkCocoa/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AA6BB89D19F0AD2A0042CF30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3C4142929D61B381C1F8289 /* Pods-MilkCocoaTests.debug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MilkCocoaTests/MilkCocoaTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MilkCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA6BB89E19F0AD2A0042CF30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60C5E0BA38C5DE2B3EBC8C26 /* Pods-MilkCocoaTests.release.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MilkCocoaTests/MilkCocoaTests-Prefix.pch";
+				INFOPLIST_FILE = MilkCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA6BB87D19F0AD2A0042CF30 /* Build configuration list for PBXProject "MilkCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6BB89719F0AD2A0042CF30 /* Debug */,
+				AA6BB89819F0AD2A0042CF30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA6BB89919F0AD2A0042CF30 /* Build configuration list for PBXNativeTarget "MilkCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6BB89A19F0AD2A0042CF30 /* Debug */,
+				AA6BB89B19F0AD2A0042CF30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA6BB89C19F0AD2A0042CF30 /* Build configuration list for PBXNativeTarget "MilkCocoaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6BB89D19F0AD2A0042CF30 /* Debug */,
+				AA6BB89E19F0AD2A0042CF30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA6BB87A19F0AD2A0042CF30 /* Project object */;
+}

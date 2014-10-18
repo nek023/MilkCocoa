@@ -1,0 +1,17 @@
+//
+//  MilkCocoaTests-Prefix.pch
+//  MilkCocoa
+//
+//  Created by Katsuma Tanaka on 2014/10/17.
+//  Copyright (c) 2014年 Katsuma Tanaka. All rights reserved.
+//
+
+#ifndef MilkCocoa_MilkCocoaTests_Prefix_pch
+#define MilkCocoa_MilkCocoaTests_Prefix_pch
+
+#define EXP_SHORTHAND
+
+#import <Specta/Specta.h>
+#import <Expecta/Expecta.h>
+
+#endif
