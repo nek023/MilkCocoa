@@ -5,7 +5,7 @@ MilkCocoa is a library that improves the compatibility of Cocoa APIs.
 ## What's this?
 There are many API changes in recent OS X SDK.
 
-For example, `beginSheet:modalForWindow:modalDelegate:didEndSelector:contextInfo:` of `NSApplication` is deprecated in OS X 10.10, and `beginSheet:completionHandler:` is available in OS X 10.9 to do the same thing.
+For example, `beginSheet:modalForWindow:modalDelegate:didEndSelector:contextInfo:` of `NSApplication` is deprecated in OS X 10.10, and `beginSheet:completionHandler:` of `NSWindow` is available in OS X 10.9 to do the same thing.
 
 If you want to create an app that works on OS X 10.8 through 10.10, you can write:
 
@@ -25,7 +25,7 @@ if ([window respondsToSelector:@selector(beginSheet:completionHandler:)]) {
 
 But in some cases this boilerplate will hurt the readability of your code.
 
-MilkCocoa is a better way to do this.
+MilkCocoa provides a better way to do this.  
 You can use a milk-added method that internally switches the above two APIs.
 
 ```
